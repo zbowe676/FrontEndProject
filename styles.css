@@ -15,3 +15,10 @@ body {
     background-color: var(--sand-beige);
     line-height: 1.6;
 }
+nav {
+    background: var(--deep-blue);
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    min-width: none;
+}
