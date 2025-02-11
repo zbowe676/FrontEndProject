@@ -1,0 +1,17 @@
+:root {
+
+    --deep-blue: #012b3b;
+    --light-blue: #25637c;
+    --steel-gray: #728590;
+    --brown-gray: #b2a289;
+    --sand-beige: #ead7c6;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--deep-blue);
+    background-color: var(--sand-beige);
+    line-height: 1.6;
+}
