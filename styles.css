@@ -22,3 +22,10 @@ nav {
     justify-content: center;
     min-width: none;
 }
+nav a {
+    color: var(--sand-beige);
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
