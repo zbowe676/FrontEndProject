@@ -45,10 +45,13 @@ header {
 
 main {
     flex: 0 1 70%;
+    padding: 30px 20px;
     }
      
 aside {
     flex: 0 1 30%;
+    padding-top: 30px;
+    padding-right: 10px;
     }
 
 
