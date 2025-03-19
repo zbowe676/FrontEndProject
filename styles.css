@@ -5,6 +5,7 @@
     --steel-gray: #728590;
     --brown-gray: #b2a289;
     --sand-beige: #ead7c6;
+    --aside-grey: #25637c3c;
 }
 
 body {
@@ -31,6 +32,7 @@ nav a {
 nav a:hover {
     text-decoration: underline;
     color: var(--brown-gray);
+    
 }
 header {
     background: var(--light-blue);
@@ -39,7 +41,8 @@ header {
     color: var(--sand-beige);
 }
 
-#container {
+
+#content-container {
     display: flex;
 }
 
@@ -49,9 +52,27 @@ main {
     }
      
 aside {
+
     flex: 0 1 30%;
+    min-width: fit-content;
+    margin-top: 30px;
     padding-top: 30px;
-    padding-right: 10px;
-    }
+    padding-right: 15px;
+    padding-left: 15px;
+    font-style: italic;
+    
+    
+}
+aside div{
+    background-color: var(--aside-grey);
+    border-radius: 10px;
+    padding: 15px 12px;
+}
+aside th, aside td {
+    padding: 1em;
+    text-align: left;
+}
+    
+
 
 
