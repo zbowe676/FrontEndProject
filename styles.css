@@ -37,7 +37,7 @@ nav a:hover {
 header {
     background: var(--light-blue);
     padding: 2em;
-    text-align: center;
+    text-align: left;
     color: var(--sand-beige);
 }
 
@@ -69,12 +69,11 @@ aside div{
     max-width: fit-content;
 }
 aside th, aside td {
-    padding: 1em;
+    padding: 10px;
     text-align: left;
-    max-width: 4em;
-
-    
+    max-width: 100px;
 }
+
 .fun-fact {
     margin-top: 30px;
     background-color: #25637c19;
@@ -83,6 +82,16 @@ aside th, aside td {
     border-radius: 10px;
   }
     
-
+.list-design a {
+    text-decoration: none;
+    color: var(--light-blue);
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+.list-design a:hover{
+    color: var(--steel-gray);
+    
+}
 
 
