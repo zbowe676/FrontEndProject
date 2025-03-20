@@ -6,17 +6,22 @@
     --brown-gray: #b2a289;
     --sand-beige: #ead7c6;
     --aside-grey: #25637c3c;
+    --soft-beige: #f5f5f5;
     
 }
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
     padding: 0;
     color: var(--deep-blue);
-    background-color: var(--sand-beige);
+    background-color: #ede7deea;
     line-height: 1.6;
-   
+    max-width: 1024px;
+
+    
 }
 nav {
     background: var(--deep-blue);
@@ -24,6 +29,7 @@ nav {
     display: flex;
     justify-content: center;
     height: 30px;
+    max-width: 1024px;
 }
 nav a {
     color: var(--sand-beige);
@@ -42,7 +48,12 @@ header {
     padding: 2em;
     height: 250px;
     background-position-y: 10%;
+    
 }
+#viewable-container {
+    background-color: var(--sand-beige);
+}
+
 #header-container {
     display: inline-block;
     color: var(--sand-beige);
@@ -51,11 +62,15 @@ header {
     0 0 20px var(--brown-gray),
     0 0 10px rgb(7, 7, 19);
     font-size: 2em;
+    max-width: 1024px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
-#content-container {
+#main-content-container {
     display: flex;
+    padding-left: 30px;
 }
 
 main {
@@ -71,6 +86,7 @@ aside {
     padding-right: 15px;
     padding-left: 15px;
     font-style: italic;
+
     
     
 }
@@ -93,6 +109,19 @@ aside th, aside td {
     padding: 10px;
     border-radius: 10px;
   }
+
+  /* I had to google how to do this, 
+  stack overflow explained the has option
+
+  I know there were other solutions such as a class or id but
+  I wanted to use what tools I had already made
+  */
+  .list-design ul li:has(img) { 
+    list-style: none;
+}
+.list-design li:last-child{
+    padding-bottom: 1.5em;
+}
     
 .list-design a {
     text-decoration: none;
@@ -101,6 +130,7 @@ aside th, aside td {
     text-decoration: none;
     font-weight: bold;
 }
+
 .list-design a:hover{
     color: var(--steel-gray);
     
@@ -112,9 +142,14 @@ section {
 
 
 section img {
+    padding-top: 1em;
     padding-right: 5px;
     max-height: 100%;
     max-width: 100%;
 }
 
+#sidenote {
+    font-size: small;
+    
+}
 
