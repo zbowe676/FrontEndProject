@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="checkEmails.js"></script>
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <div id="viewable-container">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="capital-city.html">Springfield</a>
+        <a href="chicago.html">Chicago</a>
+        <a href="schaumburg.html">Schaumburg</a>
+        <a href="contact.html">Contact Form</a>
+      </nav>
+      <header>
+        <div id="header-container">
+          <h1>Contact Us</h1>
+          <p>We'd love to hear from you!</p>
+        </div>
+      </header>
+      <div id="main-content-container">
+        <main id="form-content">
+            <p>
+                <img src="/images/Map of Illinois modified.png" alt="map of Illinois">
+            </p>
+            <form class="contactForm">
+               
+                <div class="inputs-form">
+                    <p>
+                    <label for="first">First Name</label>
+                    <input type="text" id="first" name="first" placeholder="John" required>
+                    </p>
+                    <p>
+                        <label for="last">Last Name</label>
+                        <input type="text" id="last" name="last" placeholder="Doe" required>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="name@domain.com" required>
+                    </p>
+                    <p>
+                        <label for="confirmEmail">Confirm Email</label>
+                        <input type="email" id="confirmEmail" placeholder="name@domain.com" required>
+                        
+                    </p>
+                </div>
+                <p>
+                    <label for="feedback">Message</label>
+                   <textarea id="feedback" name="feedback" placeholder="Your feedback or queries here" rows="10" cols="30" required></textarea>
+                </p>
+                    <button onclick="checkEmails()">Send</button>
+             </form>
+            
+             
+        </main>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>
