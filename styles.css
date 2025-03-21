@@ -19,7 +19,7 @@ body {
     color: var(--deep-blue);
     background-color: #ede7deea;
     line-height: 1.6;
-    min-width: fit-content;
+    min-width: 100%;
     max-width: 1024px;
 
     
@@ -37,6 +37,7 @@ nav a {
     margin: 0 1em;
     text-decoration: none;
     font-weight: bold;
+    white-space: nowrap;
 }
 nav a:hover {
     text-decoration: underline;
@@ -51,6 +52,7 @@ header {
     background-position-y: 10%;
     
     
+    
 }
 #viewable-container {
     background-color: var(--sand-beige);
@@ -59,6 +61,7 @@ header {
 }
 
 #header-container {
+    white-space: nowrap; 
     color: var(--sand-beige);
     text-shadow:
         0 0 5px var(--steel-gray),
@@ -68,6 +71,8 @@ header {
     max-width: 1300px;
     margin-left: 30px;
     margin-right: 30px;
+    
+    
   
     
 }
@@ -76,6 +81,7 @@ header {
 #main-content-container {
     display: flex;
     padding-left: 30px;
+
    
 }
 
@@ -107,14 +113,11 @@ aside th, aside td {
     text-align: left;
     max-width: 100px;
 }
+.list-design li {
+    
+    padding-bottom: 10px;
+}
 
-.fun-fact {
-    margin-top: 30px;
-    background-color: #25637c19;
-    border-left: 5px solid var(--light-blue);
-    padding: 10px;
-    border-radius: 10px;
-  }
 
   /* I had to google how to do this, 
   stack overflow explained the has option
@@ -160,7 +163,7 @@ section img {
 }
 #form-content {
     display: block;
-    max-width: 600px;
+    min-width: 800px;
     margin: 20px auto 20px auto;
     padding: 20px;
     border-radius: 10px;
@@ -169,10 +172,11 @@ section img {
 }
 #form-content img {
     float: left;
-    height: 260px;
+    width:300px;
 
 }
 form {
+    width: fit-content;
     float: right;
     padding-right: 50px;
     padding-bottom: 15px;
@@ -200,4 +204,25 @@ form {
     background-color: var(--deep-blue);
   }
 
-
+  footer {
+    background-color: var(--deep-blue);
+    color: var(--sand-beige);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+  }
+  
+  footer a {
+    color: var(--brown-gray);
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  
+  footer a:hover {
+    color: var(--steel-gray);
+  }
+  
+  .footer-links {
+    display: flex;
+  }
