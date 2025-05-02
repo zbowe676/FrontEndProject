@@ -46,7 +46,7 @@ nav a:hover {
 }
 header {
     background: var(--light-blue);
-    background-image: url("images/Aerial_city.jpg");
+    background-image: url("./images/Aerial_city.jpg");
     padding: 2em;
     height: 250px;
     background-position-y: 10%;
