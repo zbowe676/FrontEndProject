@@ -1,5 +1,6 @@
-<strong> **DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
-# WESTERN GOVERNORS UNIVERSITY 
-## D277 – FRONT-END WEB DEVELOPMENT
-Welcome to Front-End Web Development! 
-For specific task instructions and requirements for this assessment, please refer to the course page.
+D227 Front-End Web Development Project
+This project was created as part of my coursework for the D227 class on Front-End Web Development at Western Governors University.
+
+Per university guidelines, this project is not to be shared publicly. I kindly ask that you do not distribute or share any part of this repository or its contents without my explicit permission.
+
+This private repository is intended solely to demonstrate my programming skills and competencies to potential employers or internship reviewers.
